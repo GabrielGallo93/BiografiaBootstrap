@@ -1,0 +1,76 @@
+*{
+    background-image: url(./img/fondo.jpg);
+    color: #e7f84e;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: 'Fredericka the Great', cursive;
+  }
+.indice{
+    border: 3px solid gold;
+    display: table;
+    font-size: 120%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+}
+.indice.indtitulo{
+font-weight: 700;
+text-align: center;
+text-decoration: underline;
+}
+.indlista{
+    padding: 0 5px;
+}
+#divinline-block{
+    display: inline-block;
+}
+#fotoperfil{
+border-radius: 45%;
+border-style: double;
+
+}
+.fotos{
+    border-style: double;
+}
+.card{
+    border-color: gold;
+    border-width: 3px;
+    display: inline-flex
+}
+.card-img-top {
+width: 100%;
+height: 18vh;
+object-fit: cover;
+}
+.card-text{
+    font-size: small;
+}
+.titulos{
+    text-decoration: underline;
+}
+#carousel{
+    width: 355px;
+    max-height:500px;
+    display: inline-flex;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black
+}
